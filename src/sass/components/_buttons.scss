@@ -1,0 +1,30 @@
+.btn {
+  margin-top: 4rem;
+  background-color: #000;
+  max-width: 25rem;
+  max-height: 6rem;
+  padding: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 2.25px;
+  cursor: pointer;
+  transition: transform .2s;
+
+  @media (max-width:900px) {
+    max-width: 80%;
+    font-size: 1.6rem;
+  }
+
+  &:hover,
+  &:active {
+    transform: translateY(-3px) scale(1.2);
+    background-color: transparent;
+    font-weight: 700;
+    color: #000;
+  }
+
+  
+}

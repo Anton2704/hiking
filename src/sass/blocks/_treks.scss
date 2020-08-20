@@ -1,0 +1,64 @@
+#treks {
+  padding: 4rem 9rem;
+  min-height: 60rem;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+
+  @media (max-width:1200px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.treks {
+  &__text {
+      flex: 0 1 40%;
+      margin-right: auto;
+
+      @media (max-width:1200px) {
+        text-align: center;
+      }
+    p {
+      margin-top: 2rem;
+      display: block;
+      font-size: 2.1rem;
+    }
+  }
+  &__slider {
+    flex: 0 1 60%;
+    display: flex;    
+    margin-top: 15rem;
+    margin-right: -8rem;
+    max-width: 85rem;
+    overflow: hidden;
+    box-shadow: 1rem 2rem 4rem rgba(#000000, .5);
+
+    @media (max-width:1200px) {
+      margin: 0 auto;
+      margin-top: 10rem;
+      overflow: visible;
+    }   
+
+    img {
+      width: 33.333%;
+      box-shadow: 0 1rem 2rem rgba(#000000, .5);
+      transition: all .2s;
+      
+      &:not(:last-of-type) {
+        margin-right: 2rem;
+      }
+
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 2.5rem 4rem rgba(#000, .5);
+      }
+
+      @media (max-width:1200px) {
+        max-width: 90%;
+      }
+    }
+
+  
+  }
+}
