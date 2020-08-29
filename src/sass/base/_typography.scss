@@ -5,20 +5,20 @@
 
 .heading-1 {
   color: $color-black;
-  font-size: 6.7rem;
+  font-size: 4.5rem;
   @extend %text-decoration;
 }
 
 
 .heading-2 {
   color: $color-black;
-  font-size: 4.2rem;
+  font-size: 3rem;
   @extend %text-decoration;
 }
 
 .heading-3 {
   color: #a2a2a2;
-  font-size: 4.2rem;
+  font-size: 3rem;
   letter-spacing: -3.33px;
   margin-top: 1.5rem;
   @extend %text-decoration;
