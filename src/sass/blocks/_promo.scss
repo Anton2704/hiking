@@ -1,6 +1,6 @@
 #promo{
   padding: 4rem 0 0 9rem;
-  height: 100vh;
+  max-height: 100vh;
   background: url(../img/bg-1.jpg) center center/cover no-repeat;
   position: relative;
  }
@@ -141,6 +141,10 @@
       font-weight: 700;
       text-transform: uppercase;
       transition: all .2s;
+
+      @media (max-width: 1200px) {
+        font-size: 1.2rem;  
+      }
 
       @media (max-width: 900px) {
         font-size: 2.5rem;  
