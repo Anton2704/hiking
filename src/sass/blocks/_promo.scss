@@ -42,11 +42,11 @@
 
     img:first-child {
       position: absolute;
-      top: 12%;
-      left: -6%;
-      @media (max-width:1200px) {
+      top: 30px;
+      left: -35px;
+      /* @media (max-width:1200px) {
         left: -8%;
-      }
+      } */
 
       @media (max-width:900px) {
         display: none;
