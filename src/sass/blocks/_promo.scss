@@ -30,7 +30,7 @@
   }
 
   &__text {
-    flex: 0 1 70%;
+    flex: 0 1 60%;
     position: relative;
     display: block;
     margin: 7rem 0 4rem 5rem;
@@ -78,24 +78,21 @@
   }
 
   &__img {
-    flex: 0 1 50%;
-    position: relative; 
-    overflow: hidden;
-    margin-left: auto;
+    background-image: url(../img/photo-main.png);
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-position-x: -4rem;
+    top: 7rem;
+    flex: 0 1 45%;
+    max-width: 40rem;
+    height: 56rem;
+    position: relative;
+    
+    
     
     @media (max-width:900px) {    
      display: none;
     }    
-
-    img {      
-      display: block;
-      height: 100%;
-      position: absolute;
-      right: -15rem;
-      top: 2rem;
-      
-
-    }
     
   }
 }

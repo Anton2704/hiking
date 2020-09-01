@@ -12,6 +12,9 @@
   }
 }
   .footer {
+  &__top {
+    padding-right: 0;
+  }
   &__bottom {
     display: flex;
     justify-content: space-between;
@@ -21,6 +24,7 @@
       flex-direction: column;
     }
   }
+  
 
   &__tel {
     width: 25rem;
